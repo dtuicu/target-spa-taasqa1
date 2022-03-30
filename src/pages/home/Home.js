@@ -1,7 +1,7 @@
 import home from "../../resources/home.png";
-import createTargetComponent from "@adobe/target-react-component";
+// import createTargetComponent from "@adobe/target-react-component";
 import React from "react";
-const Target = createTargetComponent(React);
+// const Target = createTargetComponent(React);
 
 export default function Home() {
   return (
@@ -46,14 +46,14 @@ export default function Home() {
         varius, ut bibendum nisi dapibus. Praesent bibendum dignissim augue ut
         tempus. Vivamus consectetur euismod ipsum, at finibus nisi blandit nec.
       </p>
-      <div id="for-mbox">
-        <Target
-          data-mbox="ioana"
-          industry="IT"
-          country="Romania"
-          data-timeout="1000"
-        />
-      </div>
+      {/*<div id="for-mbox">*/}
+      {/*  <Target*/}
+      {/*    data-mbox="ioana"*/}
+      {/*    industry="IT"*/}
+      {/*    country="Romania"*/}
+      {/*    data-timeout="1000"*/}
+      {/*  />*/}
+      {/*</div>*/}
     </>
   );
 }
