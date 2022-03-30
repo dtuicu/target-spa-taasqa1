@@ -6555,7 +6555,7 @@
         overrideMboxEdgeServerTimeout: 186e4,
         optoutEnabled: !1,
         optinEnabled: !1,
-        secureOnly: !1,
+        secureOnly: 1,
         supplementalDataIdParamTimeout: 30,
         authoringScriptUrl: "//cdn.tt.omtrdc.net/cdn/target-vec.js",
         urlSizeLimit: 2048,
