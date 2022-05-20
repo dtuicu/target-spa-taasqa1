@@ -1,6 +1,6 @@
-### Site published at:
+#### Site published at:
 
-Vercel: https://spa-six.vercel.app/#/
+Vercel: https://target-spa-taasqa1.vercel.app/#/
 
 If you're deploying somewhere else, you need to change cookieDomain from /public/index.html:
 
