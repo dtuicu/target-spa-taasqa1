@@ -1,4 +1,5 @@
 import adobot from "../../resources/adobot.png";
+import {useEffect} from 'react';
 export default function About() {
   
  useEffect(() => {
