@@ -1,5 +1,20 @@
 import adobot from "../../resources/adobot.png";
 export default function About() {
+  
+ useEffect(() => {
+    const script = document.createElement('script');
+  
+    script.src = ".redirect.js";
+    script.async = true;
+  
+    document.body.appendChild(script);
+  
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
+  
   return (
     <>
       <h2 id="heading-about">About</h2>
