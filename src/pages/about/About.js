@@ -4,10 +4,10 @@ import { useHistory } from 'react-router-dom';
 
 export default function About() {
   
+  const history = useHistory();
+  
   useEffect(() => {
     document.title = "redirect?";
-    
-    let history = useHistory();
     history.replace("?param1=one&param2=two");
   });
   
