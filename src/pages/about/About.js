@@ -1,20 +1,6 @@
 import adobot from "../../resources/adobot.png";
-import {useEffect} from 'react';
-export default function About() {
-  
- useEffect(() => {
-    const script = document.createElement('script');
-  
-    script.src = ".redirect.js";
-    script.async = true;
-  
-    document.body.appendChild(script);
-  
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
 
+export default function About() {
   
   return (
     <>
