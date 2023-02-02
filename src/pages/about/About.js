@@ -1,6 +1,17 @@
 import adobot from "../../resources/adobot.png";
+import React, { useState, useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 
 export default function About() {
+  
+  useEffect(() => {
+    document.title = "redirect?";
+    
+    let history = useHistory();
+    history.replace("?param1=one&param2=two");
+  });
+  
+  
   
   return (
     <>
